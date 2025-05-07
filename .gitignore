@@ -1,0 +1,18 @@
+# Ignore all folders starting with 'output'
+output*/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore these folders if not needed
+npyFiles/
+matlabFiles/
+
+# Ignore these files if not needed
+custom_stem.py
+COCOEvalRadar.py
+custom_anchorGen.py
+custom_box2Box.py
